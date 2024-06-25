@@ -12,7 +12,7 @@ class CombineTextFiles < Formula
 
   test do
     (testpath/"testfile.txt").write("This is a test file.")
-    system "#{bin}combine-text-files"
+    system "#{bin}/combine-text-files"
     assert_predicate testpath/"single_file.txt", :exist?
   end
 end
