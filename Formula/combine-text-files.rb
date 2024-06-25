@@ -8,7 +8,6 @@ class CombineTextFiles < Formula
   def install
     system "make"
     bin.install "combine-text-files"
-    bin.install_symlink "combine_text_files" => "combine-text-files"
   end
 
   test do
