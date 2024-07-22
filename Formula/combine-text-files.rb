@@ -1,8 +1,8 @@
 class CombineTextFiles < Formula
   desc "A tool to combine text files with delimiters"
   homepage "https://github.com/orhanerday/combine-text-files"
-  url "https://codeload.github.com/orhanerday/combine-text-files/tar.gz/refs/tags/v2.2"
-  sha256 "05ba5af21208caa5ac965e6c2e1495d55462f92f60c8ac79143d2ab19671e379"
+  url "https://github.com/orhanerday/combine-text-files/archive/refs/tags/v3.0.tar.gz"
+  sha256 "cda5696cadada6fbec60acb210e6c1c87060bc6fb52d36c5f013e733dbf81bde"
   license "MIT"
 
   def install
